@@ -7,12 +7,12 @@ st.set_page_config(layout="wide")
 from PIL import Image
 
 # Load and display logo in the top-left
-logo = Image.open("logo.png")
+# logo = Image.open("logo.png")
 
-col1, col2 = st.columns([1, 6])
-with col1:
-    st.image(logo, width=80)  # Adjust width as needed
-st.markdown("<small>Created by Ibrahim Oksuzoglu</small>", unsafe_allow_html=True)
+# col1, col2 = st.columns([1, 6])
+# with col1:
+#     st.image(logo, width=80)  # Adjust width as needed
+# st.markdown("<small>Created by Ibrahim Oksuzoglu</small>", unsafe_allow_html=True)
 
 
 # Load data
